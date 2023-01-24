@@ -2,9 +2,7 @@ const url = "https://geek-jokes.sameerkumar.website/api";
 
 const randomJokeResult = document.querySelector(".random-joke-result");
 const randomJokeBtn = document.querySelector(".random-joke-btn");
-window.onload = () => {
-  randomJokeResult.style.display = "none";
-};
+randomJokeResult.style.display = "none";
 
 function fetchJokes() {
   fetch(url)
