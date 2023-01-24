@@ -45,3 +45,12 @@ body {
     background-color: #FFF;
     color: #222121;
 }
+
+@media screen and (max-width: 775px) {
+    .random-joke-btn, .random-joke-result {
+        width: 100%;
+    }
+    .random-joke {
+        width: 240px;
+    }
+}
