@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: #222121;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.random-joke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.random-joke-result {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.random-joke-btn {
+    margin-top: 20px;
+    padding: 15px 35px;
+    background-color: #222121;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 18px;
+    border: white solid 2px;
+}
+
+.random-joke-btn:hover {
+    transition: color ease-in 0.3s;
+    background-color: #FFF;
+    color: #222121;
+}
